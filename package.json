@@ -7,7 +7,7 @@
     "build:prod": "ng build --prod",
     "lint:fix": "ng lint --fix",
     "update": "npm update && npm install",
-    "push-subtree": "git subtree-push dist/searchable-select-demo origin gh-pages"
+    "push-subtree": "git subtree push --prefix=dist/searchable-select-demo origin gh-pages"
   },
   "private": true,
   "dependencies": {
